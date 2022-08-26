@@ -116,12 +116,12 @@ button {
 }
 
 a {
-  color: var(--p-color);
+  color: #28536B;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: #505350;
 }
 
 ::selection {
@@ -150,6 +150,9 @@ strong {
   padding: 10px 30px;
 }
 
+.redlinks {
+  color: #C55B64;
+}
 
 /*---------------------------------------
   AVATAR IMAGE
@@ -668,7 +671,7 @@ strong {
   position: relative;
   overflow: hidden;
   margin-bottom: 24px;
-  padding: 40px 40px 100px 40px;
+  padding: 40px 40px 40px 40px;
   transition: all 0.5s;
 }
 
@@ -1132,7 +1135,7 @@ strong {
 
   .services-thumb {
     margin-bottom: 32px;
-    padding-bottom: 270px;
+    padding-bottom: 40px;
   }
 
   .services-icon-wrap {
